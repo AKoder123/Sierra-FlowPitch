@@ -88,12 +88,23 @@
 
   function renderSlide(s, i, mode) {
     var el = document.createElement("div");
+    var countClass = itemCountClass(s);
     el.className = "slide slide--" + s.type +
+      (countClass ? " " + countClass : "") +
       (mode === "edit" ? " slide--edit" : "") +
       (mode === "thumb" ? " slide--thumb" : "");
     el.setAttribute("data-type", s.type);
     el.innerHTML = bodyHTML(s, i, mode);
     return el;
+  }
+
+  function itemCountClass(s) {
+    var n = 0;
+    if (s.type === "cards") n = (s.cards || []).length;
+    else if (s.type === "process") n = (s.steps || []).length;
+    else if (s.type === "proof") n = (s.metrics || []).length;
+    else if (s.type === "content") n = (s.bullets || []).length;
+    return n ? "slide--items-" + n : "";
   }
 
   function bodyHTML(s, i, mode) {
