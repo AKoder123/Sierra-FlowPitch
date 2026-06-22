@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "deckId": "sierra-public-overview",
+    "title": "Sierra — Public Overview",
+    "theme": "sierra"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "eyebrow": "AI customer experience platform",
+      "headline": "AI agents for more human customer experiences.",
+      "subheadline": "A public-information overview of Sierra's platform, product capabilities, and published customer outcomes.",
+      "cta": "Built for customer experience",
+      "note": "Prepared from publicly available Sierra materials · Accessed 22 June 2026"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "The customer experience challenge",
+      "headline": "Better experiences have traditionally meant higher service costs.",
+      "subheadline": "Sierra describes an age-old tension between serving customers better and controlling cost.",
+      "cards": [
+        { "title": "Rigid experiences", "body": "Traditional bots often rely on scripts and decision trees." },
+        { "title": "Disconnected channels", "body": "Separate tools can create inconsistent customer experiences." },
+        { "title": "Cost pressure", "body": "Scaling personalised service with people alone can be expensive." }
+      ],
+      "note": "Source: sierra.ai/product · sierra.ai/blog/bye-bye-bots"
+    },
+    {
+      "type": "proof",
+      "eyebrow": "Why now",
+      "headline": "AI agents as an always-on customer experience layer.",
+      "subheadline": "Public materials emphasise availability, multilingual service, and one agent across channels.",
+      "metrics": [
+        { "value": "24/7/365", "label": "availability stated by Sierra" },
+        { "value": "58", "label": "languages stated by Sierra" },
+        { "value": "6", "label": "channels listed by Sierra" },
+        { "value": "1", "label": "agent across channels" }
+      ],
+      "note": "Source: sierra.ai · sierra.ai/product"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Sierra's answer",
+      "headline": "An agent that understands, reasons, and acts.",
+      "subheadline": "Sierra says its agents use company knowledge, follow brand guidance, connect to systems, and complete tasks.",
+      "cards": [
+        { "title": "Understands context", "body": "Uses natural language and conversation context." },
+        { "title": "Stays on brand", "body": "Applies configured knowledge, policies, tone, and guidelines." },
+        { "title": "Takes action", "body": "Connects to systems of record to complete workflows." },
+        { "title": "Supports handoffs", "body": "Hands off smoothly to live agents when needed." }
+      ],
+      "note": "Source: sierra.ai/product · sierra.ai/product/meet-your-agent"
+    },
+    {
+      "type": "process",
+      "eyebrow": "Sierra product workflow",
+      "headline": "Build, connect, deploy, and improve an AI agent.",
+      "subheadline": "This sequence reflects capabilities described across Sierra's public product pages.",
+      "steps": [
+        { "title": "Build", "body": "Create and modify agents with Ghostwriter and Agent Studio." },
+        { "title": "Connect", "body": "Link knowledge and systems where customer data and actions live." },
+        { "title": "Deploy", "body": "Serve customers across supported channels and languages." },
+        { "title": "Improve", "body": "Use Insights and Explorer to analyse conversations and optimise." }
+      ],
+      "note": "Source: sierra.ai/product"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Build once, deploy everywhere",
+      "headline": "One agent across the channels customers already use.",
+      "subheadline": "Sierra states one agent can deliver consistent experiences across these channels.",
+      "cards": [
+        { "title": "Chat", "body": "Web and in-app conversations." },
+        { "title": "Voice", "body": "Spoken support over the phone." },
+        { "title": "Email", "body": "Asynchronous written support." },
+        { "title": "SMS", "body": "Text-message conversations." },
+        { "title": "WhatsApp", "body": "Messaging where customers already are." },
+        { "title": "ChatGPT", "body": "Reach customers inside ChatGPT." }
+      ],
+      "note": "Source: sierra.ai"
+    },
+    {
+      "type": "beforeAfter",
+      "eyebrow": "From scripted bots to AI agents",
+      "headline": "Sierra distinguishes agents from scripted automation.",
+      "subheadline": "",
+      "left": {
+        "title": "Traditional approach",
+        "bullets": [
+          "Scripted decision trees",
+          "Answers and deflection",
+          "Channel-specific tools",
+          "Limited task completion"
+        ]
+      },
+      "right": {
+        "title": "Sierra's agent approach",
+        "bullets": [
+          "Natural-language interaction",
+          "Reasoning with context",
+          "Connected actions",
+          "Consistent multichannel service"
+        ]
+      },
+      "note": "Source: sierra.ai/blog/ai-agents-guide · sierra.ai/blog/bye-bye-bots"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Designed for serious deployments",
+      "headline": "Trust, security, governance, and quality assurance.",
+      "subheadline": "Sierra's pages describe configurable guardrails, monitoring, integrations, and live-agent handoffs.",
+      "cards": [
+        { "title": "Governance", "body": "Define brand guidelines, goals, guardrails, and escalation." },
+        { "title": "Integration", "body": "Securely connect agents to knowledge and systems of record." },
+        { "title": "Measurement", "body": "Review resolution, satisfaction, and agent performance." }
+      ],
+      "note": "Source: sierra.ai/product/trust-and-reliability · trust.sierra.ai"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Published customer use cases",
+      "headline": "Stories spanning support, commerce, retention, and recovery.",
+      "subheadline": "These are examples reported by Sierra; applicability depends on each company's systems and deployment.",
+      "cards": [
+        { "title": "Returns and orders", "body": "Next uses an agent for arrange-return queries and identity verification." },
+        { "title": "Member support", "body": "WeightWatchers publishes containment and CSAT results for its agent." },
+        { "title": "Subscriber service", "body": "SiriusXM uses a tailored agent for customer self-service." },
+        { "title": "Payments", "body": "Sierra publishes PCI-compliant payment capabilities across chat and voice." }
+      ],
+      "note": "Source: sierra.ai/customers/next · /weightwatchers · /siriusxm · sierra.ai/blog/payments"
+    },
+    {
+      "type": "proof",
+      "eyebrow": "Publicly reported customer results",
+      "headline": "Measurable outcomes from named deployments.",
+      "subheadline": "Figures are taken from Sierra's own customer stories and shown with their original context.",
+      "metrics": [
+        { "value": "~70%", "label": "WeightWatchers cases contained in week one" },
+        { "value": "4.7/5", "label": "CLEAR satisfaction reported post-launch" },
+        { "value": "98%", "label": "BARK customer satisfaction reported" },
+        { "value": "<10 wks", "label": "Singtel time to live reported by Sierra" }
+      ],
+      "note": "Scale claim: in May 2026 Sierra stated its platform served over 40% of the Fortune 50 and powered billions of interactions. Source: Sierra customer stories · \"Better customer experiences. Built on Sierra\" (4 May 2026)"
+    },
+    {
+      "type": "cards",
+      "eyebrow": "Not another chatbot",
+      "headline": "Reasoning, action, channels, and outcomes.",
+      "subheadline": "Sierra's public differentiation centres on what an agent can actually do.",
+      "cards": [
+        { "title": "Action, not answers alone", "body": "Agents connect to systems and complete customer tasks." },
+        { "title": "One agent across channels", "body": "Chat, SMS, WhatsApp, email, voice, and ChatGPT." },
+        { "title": "Configured to the brand", "body": "Define knowledge, tone, guidelines, goals, and guardrails." },
+        { "title": "Outcome-based pricing", "body": "Pricing can be tied to specific valuable outcomes delivered." }
+      ],
+      "note": "Source: sierra.ai/product · sierra.ai/blog/outcome-based-pricing-for-ai-agents"
+    },
+    {
+      "type": "process",
+      "eyebrow": "How Sierra describes adoption",
+      "headline": "Test, refine, launch, and expand agents over time.",
+      "subheadline": "Customer stories show teams maturing agents through a repeatable loop.",
+      "steps": [
+        { "title": "Define", "body": "Choose customer journeys and desired outcomes." },
+        { "title": "Configure", "body": "Add knowledge, brand guidance, goals, and guardrails." },
+        { "title": "Integrate", "body": "Connect relevant systems and supported channels." },
+        { "title": "Evaluate", "body": "Review resolution, satisfaction, and quality." },
+        { "title": "Expand", "body": "Add journeys, languages, channels, or markets." }
+      ],
+      "note": "A synthesis of Sierra's public materials, not a guaranteed implementation plan."
+    },
+    {
+      "type": "closing",
+      "eyebrow": "Next step",
+      "headline": "Explore where a Sierra agent could improve a customer journey.",
+      "subheadline": "Use Sierra's public materials and a direct conversation to validate fit, scope, security, integrations, pricing, and outcomes.",
+      "cta": "Learn more from Sierra",
+      "note": "Prepared from publicly available Sierra materials · Accessed 22 June 2026 · No affiliation or endorsement implied"
+    },
+    {
+      "type": "content",
+      "eyebrow": "Sources & scope",
+      "headline": "Built only from Sierra's public materials.",
+      "subheadline": "No private information, inferred roadmap, valuation, customer promise, or endorsement is presented.",
+      "bullets": [
+        "Core product — sierra.ai · /product · /product/meet-your-agent",
+        "Trust and controls — /product/trust-and-reliability · trust.sierra.ai",
+        "Pricing — /blog/outcome-based-pricing-for-ai-agents",
+        "Customer stories — /weightwatchers · /clear · /bark · /singtel · /next · /siriusxm",
+        "Payments — /blog/payments",
+        "Scale statement — /blog/better-customer-experiences-built-on-sierra (4 May 2026)"
+      ],
+      "note": "For external use, verify Sierra's website has not changed and retain source wording and customer-specific context."
+    }
+  ]
+}

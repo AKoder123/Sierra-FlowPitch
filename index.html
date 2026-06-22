@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>FlowPitch — Sierra Overview</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app" id="app">
+    <!-- Top toolbar -->
+    <header class="topbar" id="topbar">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="wm">FlowPitch</span>
+      </div>
+      <input id="deckTitle" class="deck-title" aria-label="Deck title" spellcheck="false" />
+      <span class="spacer"></span>
+      <button id="presentBtn" class="tbtn primary" type="button">Present</button>
+      <button id="exportPdfBtn" class="tbtn" type="button">Export PDF</button>
+      <button id="downloadJsonBtn" class="tbtn ghost" type="button">Download JSON</button>
+      <button id="resetDeckBtn" class="tbtn ghost" type="button">Reset Deck</button>
+    </header>
+
+    <!-- Left slide rail -->
+    <aside class="rail" aria-label="Slides">
+      <div class="rail-head">
+        <span>Slides</span>
+      </div>
+      <div class="rail-ops">
+        <button class="op" id="addSlide" type="button" title="Add slide" aria-label="Add slide">＋</button>
+        <button class="op" id="dupSlide" type="button" title="Duplicate slide" aria-label="Duplicate slide">⧉</button>
+        <button class="op" id="delSlide" type="button" title="Delete slide" aria-label="Delete slide">🗑</button>
+        <button class="op" id="upSlide" type="button" title="Move up" aria-label="Move slide up">↑</button>
+        <button class="op" id="downSlide" type="button" title="Move down" aria-label="Move slide down">↓</button>
+      </div>
+      <div class="thumbs" id="thumbs"></div>
+    </aside>
+
+    <!-- Central editable canvas -->
+    <main class="canvas-wrap">
+      <div class="editor-slide-frame" id="editorCanvas"></div>
+    </main>
+
+    <!-- Right inspector -->
+    <aside class="inspector" aria-label="Slide settings">
+      <div class="insp-title">Slide</div>
+      <div class="field">
+        <label for="typeSelect">Slide type</label>
+        <select id="typeSelect">
+          <option value="title">Title</option>
+          <option value="section">Section</option>
+          <option value="content">Content</option>
+          <option value="cards">Cards</option>
+          <option value="proof">Proof / metrics</option>
+          <option value="process">Process</option>
+          <option value="beforeAfter">Before / After</option>
+          <option value="closing">Closing</option>
+          <option value="visual">Visual</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Accent</label>
+        <div class="insp-swatches" id="swatches"></div>
+      </div>
+      <div class="field">
+        <label for="noteField">Speaker note / footer</label>
+        <textarea id="noteField" rows="4" placeholder="Add a note…"></textarea>
+      </div>
+      <p class="insp-hint">Click any text on the slide to edit it directly. Edits autosave to this browser.</p>
+    </aside>
+  </div>
+
+  <!-- Present mode stage -->
+  <div class="present-stage" id="presentStage" aria-hidden="true">
+    <div class="amb a1"></div><div class="amb a2"></div><div class="amb a3"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div class="present-frame" id="presentFrame">
+      <div class="present-deck" id="presentDeck"></div>
+    </div>
+  </div>
+  <div class="present-ui" id="presentUI" hidden>
+    <div class="p-progress"><div class="bar" id="pBar"></div></div>
+    <div class="p-exit"><button class="p-btn" id="pExit" type="button" title="Exit (Esc)" aria-label="Exit present mode">✕</button></div>
+    <div class="p-nav left"><button class="p-btn" id="pPrev" type="button" aria-label="Previous slide">‹</button></div>
+    <div class="p-nav right"><button class="p-btn" id="pNext" type="button" aria-label="Next slide">›</button></div>
+    <div class="p-dots" id="pDots"></div>
+    <div class="p-counter" id="pCounter">1 / 1</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
